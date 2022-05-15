@@ -12,12 +12,26 @@ Test Teardown  CommonFunctionality.Finish TestCase
 
 
 *** Test Cases ***
-Verify basic search functionality
+Verify basic search functionality books
     [Documentation]  this testcase verify the basic search
     [Tags]  Functional
 
-    HeaderPage.Input Search Text and Click Search
-    SearchResultsPage.Verify Search Results
+    HeaderPage.Input Search Text and Click Search   books
+    SearchResultsPage.Verify Search Results     books
+
+Verify basic search functionality travel
+    [Documentation]  this testcase verify the basic search
+    [Tags]  Functional
+
+    HeaderPage.Input Search Text and Click Search   travel
+    SearchResultsPage.Verify Search Results     travel
+
+Verify basic search functionality robot
+    [Documentation]  this testcase verify the basic search
+    [Tags]  Functional
+
+    HeaderPage.Input Search Text and Click Search   robot
+    SearchResultsPage.Verify Search Results     robot
 
 Verify advanced search functionality
     [Documentation]  this testcase verify the advanced search
