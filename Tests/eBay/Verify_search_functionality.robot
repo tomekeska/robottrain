@@ -19,23 +19,23 @@ Verify basic search functionality books
     HeaderPage.Input Search Text and Click Search   books
     SearchResultsPage.Verify Search Results     books
 
-Verify basic search functionality travel
-    [Documentation]  this testcase verify the basic search
-    [Tags]  Functional
-
-    HeaderPage.Input Search Text and Click Search   travel
-    SearchResultsPage.Verify Search Results     travel
-
-Verify basic search functionality robot
-    [Documentation]  this testcase verify the basic search
-    [Tags]  Functional
-
-    HeaderPage.Input Search Text and Click Search   robot
-    SearchResultsPage.Verify Search Results     robot
-
-Verify advanced search functionality
-    [Documentation]  this testcase verify the advanced search
-    [Tags]  Functional
-
-    HeaderPage.Click on Avdanced Search Link
+#Verify basic search functionality travel
+#    [Documentation]  this testcase verify the basic search
+#    [Tags]  Functional
+#
+#    HeaderPage.Input Search Text and Click Search   travel
+#    SearchResultsPage.Verify Search Results     travel
+#
+#Verify basic search functionality robot
+#    [Documentation]  this testcase verify the basic search
+#    [Tags]  Functional
+#
+#    HeaderPage.Input Search Text and Click Search   robot
+#    SearchResultsPage.Verify Search Results     robot
+#
+#Verify advanced search functionality
+#    [Documentation]  this testcase verify the advanced search
+#    [Tags]  Functional
+#
+#    HeaderPage.Click on Avdanced Search Link
 
