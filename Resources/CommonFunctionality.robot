@@ -10,6 +10,6 @@ ${browser}  chrome
 Start TestCase
     Open Browser  ${url.${env}}  ${browser}
     Maximize Browser Window
-
+    Log     Env: ${env}, Browser: ${browser}, Url: ${url.${env}}
 Finish TestCase
     Close Browser

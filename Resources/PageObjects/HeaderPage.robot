@@ -1,16 +1,15 @@
 *** Settings ***
 Library  SeleniumLibrary
+Variables   ../Webelements.py
 
 *** Variables ***
-#${search_text}  mobile
-#@{search_text}  mobile  travel  robot  phone
-#&{search_text}  wojtek=books    beata=travel    andrzej=games
+
 
 *** Keywords ***
 Input Search Text and Click Search
     [Arguments]  ${search_text}
-    Input Text  //*[@id="gh-ac"]  ${search_text}  true
-    Click Element  //*[@id="gh-btn"]
+    Input Text    ${HomePageSearchTextBox}  ${search_text}  true
+    Click Element  ${HomePageSearchTextButton}
 
 Click on Avdanced Search Link
-    Click Element   css:a#gh-as-a
+    Click Element   ${HomePageAdvancedSearchLink}
