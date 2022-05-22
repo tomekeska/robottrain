@@ -21,7 +21,8 @@ Provide Credentials
     Input Text  id:login_field  tomasz.skawinski@gmail.com
     Input Password  name:password  Maksiu220
     Click Element   identifier:commit
-    Click Element   css::a[href="/tomekeska/robottrain"]
+    Sleep   2s
+    Click Link   link:tomekeska/robottrain
 
 Finish TestCase
     Close Browser
